@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/androidparty"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -16,7 +25,7 @@
         android:layout_marginBottom="696dp"
         android:fontFamily="casual"
         android:text="Happy Birthday Gun!"
-        android:textColor="@color/white"
+        android:textColor="@android:color/black"
         android:textSize="36sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,4 +44,5 @@
         android:text="From Sam"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

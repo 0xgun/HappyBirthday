@@ -38,6 +38,7 @@
         android:layout_marginBottom="16dp"
         android:text="@string/signature_text"
         android:textAlignment="viewStart"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
